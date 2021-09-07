@@ -1,0 +1,34 @@
+.header{
+    background-color: red;
+    float: left;
+    height: 40px;
+    width: 100%;
+}
+
+.sidebar{
+    float: left;
+    width: 25%;
+    height: 800px;
+    background-color: khaki;
+}
+.content{
+    float: left;
+    width: 75%;
+    height: 400px;
+    background-color: lightblue;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 5px;
+    float: left;
+}
+
+.footer{
+    float: left;
+    width: 100%;
+    height: 50px;
+    background-color: lightcoral;
+}

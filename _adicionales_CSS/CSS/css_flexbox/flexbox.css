@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+.flex-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center ;
+    height: 400px;
+    align-items: center;
+    background-color: wheat;
+    padding: 10px;
+    border: 2px solid black;
+}
+.flex-container div{
+    background-color: gainsboro;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    border: 2px solid black;
+}
+
+    /*flex-direction:column;
+    da direccion al contenido, por default esta como row
+    se puede poner como column o column/row reverse
+    
+    flex-wrap sirve para hacer que los elementos se posicionen 
+    por debajo cuando no caben en la pantalla y solotos se ajustan.
+    Por defecto estan como nonwrap. icual que la anterior 
+    tiene la propiedad reverse
+
+    flex-flow: aplica las propiedades anteriores combinadas
+    (column/row + wrap/nonwrap) * reverse/no reverse
+
+    alinear contenido con justify-content:
+    center: alinea al centro
+    start: alinea a la izq
+    end: alinea al final
+    space-around: alinea con separaciones equidistantes al centro
+    space-between: alinea con separaciones equidistantes a los lados
+
+    Con el atributo align-content se da espacio
+    a los elmentos que estan contenidos en esa propiedad
+    :space-between da espacios entre filas
+
+    */

@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <!--<meta name="viewport" content="width=device-width, initial-scale=1.0"/>-->
+        
+        <style>
+            table,th,td {
+                border: 2px solid black;
+                border-collapse: collapse;}
+            th,td{
+                padding: 10px;
+            }
+            th{text-align: center;}
+            
+        </style>
+    </head>
+    <body>
+        <h1>Titular h1</h1>
+        <h2>titular h2</h2>
+        <h3>titular h3</h3>
+        <h4>h4</h4>
+        <h5>h5</h5>
+        <h6>h6</h6>
+        
+        <p>parrafo</p>     
+        <a href="https://www.youtube.com/">Youtube</a> 
+        <!--para que el enlace funcione, debo referenciarlo a una fuente, por eso se pone href="direccion dela fuente"-->
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id debitis voluptas distinctio veniam quas qui minus nobis dignissimos natus ad quod dicta pariatur facilis tempora, voluptatibus veritatis <br>dolor magni reprehenderit?
+        Placeat nam nihil veniam magnam cumque, reiciendis sapiente quidem, quisquam vitae illo et architecto cupiditate dignissimos deleniti explicabo! Nemo porro libero esse corrupti facilis aspernatur doloremque provident nostrum, dignissimos nobis.
+        </p>
+        <hr>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione perferendis similique incidunt magni neque tenetur vel consequatur voluptate quidem autem, eum facilis blanditiis, eos adipisci! At sit maiores provident minus!
+        </p>
+        <hr>
+        <pre>
+            <b>Cada vez que pienso en ti,</b>
+            <i>mis ojos rompen en llanto;</i>
+            <em>y muy triste me pregunto,</em>
+            <strong>¿por qué te quiero tanto?</strong>
+        </pre>
+        <!--así se hace un comentario -->
+        
+        <a href="https://www.youtube.com/" target="_blank"
+            <img src=""/> 
+            <p>ggg</p>
+        >youtube que abre en otra pestaña</a>
+        <!--así se abre en una nueva pestaña a la de origen-->
+        <a href="mailto:email@email.com" target="_blanck">email@email.com</a> 
+
+<!--Inicia sección de imágenes-->
+        <img src="https://www.ecestaticos.com/imagestatic/clipping/9da/18c/9da18cdc3b033ca0375e7b9c1394c0d0/has-conseguido-que-llore-perdio-a-su-perro-pidio-ayuda-en-las-redes-y-esto-es-lo-que-paso.jpg?mtime=1579565836" 
+        alt="Cachorro Golden" width="80%" />
+
+<!--inicia sección de tablas-->
+
+        <table>
+            <tr>
+                <th>nombre</th>
+                <th>apellidos</th>
+                <th>email</th>
+            </tr>
+            <tr>
+                <td>Humberto</td>
+                <td>Morales</td>
+                <td>mail@email.com</td>
+            <tr>
+                <td>Armando</td>
+                <td>Paredes</td>
+                <td>zinc@mail.com</td>
+            </tr>
+                <td>3</td>
+                <td>a.</td>
+                <td>col y row</td>
+            </tr>
+        </table>
+
+        <br>
+        <!--inicia formulario y elementos del formulario -->
+        <br>
+        <div>
+             
+            <form action="get">
+                
+                <label for="nombre">Email</label>
+                <input type="text" id="nombre" name="name">
+                <br>
+                <br>
+                <label for="color">Elije un color</label>
+                <select name="color" id="color" size="1">
+                    <option value="">Rojo</option>
+                    <option value="">Amarillo</option>
+                    <option value="">Verde</option>
+                    <option value="">Naranja</option>
+                    <option value="">Azul</option>
+                </select>
+                <br>
+                <br>
+                <label for="color">Elije un color, si son más presiona ctrl</label>
+                <select name="color" id="color" multiple>
+                    <option value="">Rojo</option>
+                    <option value="">Amarillo</option>
+                    <option value="">Verde</option>
+                    <option value="">Naranja</option>
+                    <option value="">Azul</option>
+                </select>
+                <br>
+                <br>
+                <textarea name="" id="" cols="50" rows="10">10row x 50 col</textarea>
+                <textarea style="width: 100px">100px</textarea>              
+                <textarea name="mensaje"></textarea>
+                <button type="button" onclick="alert('deja ahí hdp !!!')">boton enviar</button>
+                <button type="submit" onclick="alert('que dejes, me da amsiedad !!! BYE')">refresh</button>
+                <input list="colores"/> 
+                <datalist id="colores">
+                    <option> rojo</option>
+                    <option> azul</option>
+                    <option> verde</option>
+                    <option> rosa</option>
+<!--desde la linea 114 hasta la 119 esta codificado el boton que contiene la data list
+ese boton funciona seleccionando una de las opciones y/o escribiendo sobre la barra del menú
+dará las opciones que contengan las letras que pones en la barra y se autollenará-->
+            </form>   
+            
+
+        </div>             
+        <br>
+            <br>
+            <!--Inicia tipos de input en HTML-->
+            <form>
+                <label for="iname">Nombre:</label>
+                <input id="iname" type="text" name="name">
+
+                <label for="isurname">Apellidos:</label>
+                <input id="isurname" type="text" name="surname">
+
+                <label for="iemail">email:</label>
+                <input id="iemail" type="email" name="email">
+
+                <label for="ipass">password:</label>
+                <input id="ipass" type="password" name="pass">
+
+                <input type="submit" value="Enviar">
+
+                <input type="reset" value="reset">
+
+            </form>
+
+            <br>
+            <!-- -->
+
+            <form action="">
+                <input type="radio" id="red" name="color" value="red">
+                <label for="red">rojo</label>
+
+                <input type="radio" id="green" name="color" value="green">
+                <label for="green">verde</label>
+            <br>
+<!--Si no pones el "for" bien (arriba entre la linea 152 y 157), no funcionara la seleccion de la opción -->
+            <br>
+                <input type="checkbox" id="red" name="color" value="red">
+                <label for="red">rojo</label>
+
+                <input type="checkbox" id="green" name="color" value="green">
+                <label for="green">verde</label>
+<!-- hacer un botón es así, hay varios-->
+                <br><br>
+                <input type="button" onclick="alert('Hola prr@ !')" value="Botón!" name="" id="">
+                <br><br>
+                <input type="color" name="color" id="">
+                <br><br>
+                <input type="date" name="date">
+                <br><br>
+                <input type="datetime-local" name="date">
+                <br><br>
+                <input type="file" name="file">
+                <br><br>
+                <input type="month" name="month">
+                <br><br>
+                <input type="number" name="number">
+                <br><br>
+                <input type="range" name="num" min="0" max="5">
+                <br><br>
+                <input type="search" name="search">
+                <br><br>
+                <input type="tel" name="phone">
+                <br><br>
+                <input type="time" name="time">
+                <br><br>
+                <input type="url" name="url">
+                <br><br>
+                <input type="week" name="week">
+                <br><br>
+            </form>                
+<!--Comienza apartado de atributos -->
+
+            <form action="">
+                <input type="text" name="name" value="lucas">
+                <br><br>
+                <input type="text" name="name" readonly>
+                <br><br>
+                <input type="text" name="name" value="lucas" readonly>
+                <br><br>
+                <input type="text" name="name" value="lucas" disabled>
+                <br><br>
+                <input type="text">
+
+    <!--La diferencia entre disabled y read only, es que readonly si manda el dato con un boton submit. 
+    Mientras que disabled no lo hace, por eso es importante mencionar esta diferencia. -->
+                <br><br>
+                <input type="text" maxlength="2">
+                <br><br>
+                <input type="text" size="4">
+    <!--El atributo size da un espacio aproximado de 4 caracteres, maxlength SÓLO los que le solicites -->
+                <br><br>
+                <input type="number" max="4" min="-1">
+    <!--Sirve para fechas, numeros, tiempo. horas, semanas, mes, TODO lo que tenga atributo máx y mín-->
+                <br><br>
+    <!--Atributo multiple, sirve para archivos que se cargan, texto, -->
+                <input type="file" multiple>
+                <br><br>
+                <input type="text" pattern="[A-Za-z]{3}">
+                <input type="submit" name="submit">
+                <br><br>
+                <input type="text" placeholder="Nombre">
+                <br><br>
+                <!--Sirve para poner un nombre dentro de una etiqueta o formulario, sin usar label-->
+                <input type="text" placeholder="Nombre" required>
+                <br><br>
+                <!--Sirve para obligar al llenado de un formulario-->
+                <input type="number" step="2">
+                <br><br>
+                <!--Sirve para brincar numeros de "n" en "n" veces, funciona para fechas, nombres y rangos-->
+                <br><br>
+                <input type="text" name="name" autocomplete="off">
+                <input type="text" name="surname" autofocus>
+                <!--Autofocus te lleva al punto de inicio de un formulario en una página
+                     mientras que autocomplete te autorrellena el contenido para apagarlo es con el 
+                    uso de off. Este atributo se usa en un formulario o en un input -->
+                <br><br>
+            </form>
+<!--Poner un video en HTML-->
+                <video controls width="90%" autoplay loop>
+                    <source src="assets/video/WhatsAppVideo20210226at132337.mp4" type="video/mp4">
+                    <source src="" type="">
+                    Tu navegador no es compatible con videos HTML5
+                    <!--Para que fuuncionen los botones del video se debe usar el atributo "controls"
+                        width y height sirven para ajustar la altura. Mientras que autoplay y mute 
+                        son otros atributos de esta etiqueta ·video· -->
+                </video>
+                <br><br>
+
+<!--Poner un audio en HTML-->
+                <audio src="" controls>
+                    <source src="" type="audio/mpeg">
+                    <source>
+                </audio>
+                <br><br>
+                <!--Para esta etiqueta tambien se usan los atributos mute y autoplay-->
+
+<!--poner un video desde youtube-->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/wFavwkkkl1E" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+                clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <!--Para esta etiqueta hay varios atributos:
+                    autoplay=1: se reproducira el video de forma automatica dentro de el atributo src
+                    mute=1: por defecto mutea el video
+                    loop=1: sirve para reproducir el video indefinidamente, en la etiqueta video no es necesario =1 
+                    controls=0: retira los controles del reproductor despues de ponerlos en marcha 
+                    E.G. src="https://www.youtube.com/embed/wFavwkkkl1Eautoplay=1"-->
+                    <br><br>
+
+<!--Citas y menciones -->
+
+                <p> cierta persona dijo:<q>No he programado nada para enamorar</q> </p>
+                <!--esta es una etiqueta para citas cortas-->
+                    <br><br>
+                <p>Definición de orgasmo</p>
+                <blockquote cite="https://dle.rae.es/orgasmo">1. m. Culminación del placer sexual.
+
+                    2. m. Med. desus. eretismo.</blockquote>
+                    <br><br>
+                <!--la etiqueta blockquote se usa para etiquetas más extensas-->
+
+                <p>La <abbr title="Programación Orientada a Objetos">POO</abbr>es muy útil. 
+                </p> 
+                <br><br>
+                <!--Esta etiqueta sirve para dar significado a abreviaciones-->
+                <address>
+                    Humbert Morales <br>
+                    Sitio web: <br>
+                    direcconURL.com <br>
+                    Calle: HTML5, CSS <br>
+                    México
+                </address> <br><br>
+                <!--Etiqueta de contacto muestra informacion de contacto de un doc o art
+                    Suele mostrar en los navegadores en cursiva --> 
+                
+                <p>
+                    <cite>El principito</cite> por Antoine de Saint-Exupéry. Publicado en 1943.
+                </p>
+                <br><br>
+                <!--Es para definir el titulo de un obra, tambien se observa en cursivas-->              
+                
+                <bdo dir="rtl">anita lava la tina. <br> a n i l i n a</bdo>
+                <br><br>
+                <!--Hace que el texto se vea al revés, rtl significa right to left-->
+
+<!--Elemento picture-->
+                
+                <picture>
+                    <source media="(min-width: 500px)" srcset="assets/images/21">
+                    <source media="(min-width: 300pw)" srcset="as">
+                    <img src="assets/images/216409080_2934542920196320_5753676104124739248_n.jpg" alt="">
+                </picture>
+                <!--Cada elemento source hace referencia a una imagen diferente.
+                    Y el navegador escoje una de ellas segun la pantalla o el dispositivo. 
+                    En los atributos, se describe cuando se tiene que usar cada imagen.
+                    Al final se usa un <img> por si el navegador no soporta picture, entonces carga <img>
+                    -->
+
+<!--Bloques y elementos de línea ver doc: 
+https://docs.google.com/document/d/1n5BtpoS6BRNjXx-pdepyfvGdRnP1ayX8ygpRIPS3fbg/edit
+    Elemento HEAD,Layouts, elementos de código en HTML, elementos semánticos, entidades, emojis, 
+    guia de estilo están en ese mismo doc. 
+    -->
+<br> <br>
+
+<!--iframe-->    
+                <ul>
+                    <li>
+                        <a href="http://www.quimicaorganica.org/
+                        reacciones-sustitucion-sn1.html" target="iframe_QO">SN1</a>
+                    </li>
+                    <li>
+                        <a href="http://www.quimicaorganica.org/
+                        reacciones-sustitucion-sn2.html" target="iframe_QO">SN2</a>
+                    </li>
+                </ul>
+                <iframe name="iframe_QO" src="http://www.quimicaorganica.org/
+                organica-i.html" frameborder="10px" 
+                width="100%" height="800px"></iframe>
+
+<!--otros temas como introduccion a CSS y JavaScript estan en el link de arriba-->
+
+<!--FIN del curso https://www.youtube.com/watch?v=CGV9CuIUtwk&t=5187s -->
+
+    </body>
+</html>

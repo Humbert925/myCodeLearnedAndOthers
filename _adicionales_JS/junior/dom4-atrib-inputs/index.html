@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Atributos de los inputs</h1>
+    <div>
+        <p> Estos atributos se pueden modificar desde el objeto como una propiedad de las etiquetas. <br>
+            No hace falta hacer uso de set, get o removeAttribute. <br><br>
+            <ul><b>className:</b> muestra lo que contiene el atributo class</ul>
+            <ul><b>value:</b> muestra el valor del atributo</ul>
+            <ul><b>type:</b> muestra el tipo de atributo</ul>
+            <ul><b>accept:</b> usualmente se usa con type file</ul>
+            <ul><b>form:</b> cuando hay un formulario existente, se puede ligar un dato de ingreso para que sea guardado en un servidor</ul>
+            <ul><b>minlengh:</b> es la minima cantidad de caracteres que debe tener un input</ul>
+            <ul><b>placeholder:</b> coloca un texto en el input "text" para dar alguna indicacion</ul>
+            <ul><b>required:</b> hace una validación de datos en un input text. No envia campos vacíos por ejemplo.</ul>
+        </p>
+    </div>
+    <div>
+        <h2>Ejemplificación de los atributos</h2>
+        
+        <form >
+            <input type="text" id="input-normal" >
+            <input type="submit" >
+        <br> <br>
+        </form>
+        <!--<form id="formulario">
+            <input type="text">
+            <input type="submit">
+        </form>-->
+        <!--Este input se puso para mostrar que con un id ligado,
+            se puede hacer funcionar el input de enviar
+        <input type="submit" form="formulario" >-->
+    </div>
+    <script src="atributos-inputs.js"></script>
+</body>
+</html>

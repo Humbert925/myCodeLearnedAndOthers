@@ -1,0 +1,62 @@
+*{
+    margin:10px;
+}
+
+body{
+    background-color: wheat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3{color:blue}
+
+#prueba1{
+    color: red;
+    padding: 10px;
+    background-color: turquoise;
+}
+
+.prueba2{
+    color: coral;
+    background-color: lightgray;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+#prueba2{
+    color: white;
+    background-color: black;
+    padding: 20px;
+    border: lime solid 20px;
+    width: 250px;
+    height: 60px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+p{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.text-red{
+    color:red;
+}
+
+/*código de estilo para id's y clases*/
+

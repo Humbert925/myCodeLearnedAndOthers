@@ -1,0 +1,28 @@
+*{border: black solid 2px;}
+/*esto es para seleccionar todo el contenido*/
+
+p{
+    background-color: wheat;
+}
+/*así se le da ese formato a todas las etiquetas p*/
+
+#primero{
+    color: red;
+}
+/*Así se da estilo a un id usando el "gato"*/
+
+.parrafo{
+    color: blue;
+}
+/*así se da estilo a una clase, con el punto "."*/
+
+p.parrafo{
+    font-size: 20px;
+}
+/*cuando tienes clases del mismo tipo así señalas la que es de ui interes. 
+primero va la etiqueta y luego el nombre del atributo class*/
+
+h2, p{
+    text-align: justify;
+}
+/*Así se asigna un cambio a diferentes etiquetas, usando la coma*/

@@ -1,0 +1,10 @@
+/*.container{
+    background-color: lightgray;
+    color: white
+}
+.row>.col, .bd-example-row .row >[class^="col-"]{
+    padding-top:0.75rem;
+    padding-bottom:0.75rem;
+    background-color: rgba(39, 41,43,0.03);
+    border: 1px solid rgba(66, 108, 151, 0.1);
+}*/

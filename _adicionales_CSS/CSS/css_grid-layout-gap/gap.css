@@ -1,0 +1,16 @@
+.grid-container{
+    display: grid;
+    background-color: bisque;
+    grid-template-columns: auto auto auto;
+    gap: 10px 30px;
+}
+.grid-container div{
+    background-color: coral;
+    padding: 20px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+/*
+(column/row)-gap o gap (usa ambas[row+column])
+Se usa para crear una brecha entre elementos*/

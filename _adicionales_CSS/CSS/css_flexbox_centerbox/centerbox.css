@@ -1,0 +1,18 @@
+.flex-container{
+    background-color: bisque;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.flex-container div{
+    background-color: olivedrab;
+    text-align: center;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    margin: 5px; 
+}
+/*Si se busca un centrado vertical, se aumenta la altura y se hace lo siguiente::after
+    flex-direction: column;
+    justify-content: center;
+    height: 300px; */

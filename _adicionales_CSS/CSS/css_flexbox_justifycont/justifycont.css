@@ -1,0 +1,21 @@
+.flex-container{
+    display: flex;
+    background-color: bisque;
+    justify-content:center;
+}
+.flex-container div{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-color: crimson;
+    color: white;
+    text-align: center;
+}
+/*usando justify-content se usan los siguientes atributos
+center: centra el contenido, en este caso las "cajas"
+flex-start: alinea el contenido con relacion al inicio
+flex-end: alinea el contenido con relacion al final
+space-arround: deja espacios al inicio y al final, busca simetría entre cajas
+space-between: deja espacios, pero el primer y último elemento quedan junto al margen y centra los demás
+space-evenly: deja un espacio "simetrico" entre los elementos y bordes 
+*/

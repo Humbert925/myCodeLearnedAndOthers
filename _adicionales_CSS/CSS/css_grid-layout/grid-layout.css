@@ -1,0 +1,40 @@
+.grid-container{
+    display: grid;
+    background-color: aqua;
+    grid-template-areas: 'header' "menu" "main" "aside" "footer";
+    column-gap: 5px;
+    row-gap: 10px;
+}
+.grid-container div{
+    background-color: beige;
+    padding: 10px;
+}
+.header{
+    grid-area: header;
+}
+.menu{
+    grid-area: menu;
+}
+.main{
+    grid-area: main;
+}
+.aside{
+    grid-area: aside;
+}
+.footer{
+    grid-area: footer;
+}
+
+/*column-gap
+se usa para crear brechas entre columnas, con esa propiedad puedes retirar la de margin. 
+Sólo separará las columnas, no las filas
+
+grid-template-columns
+creará columnas de forma automática segun el numero de "auto" que se coloquen después de ese comando. 
+
+grid-template-areas
+definira las áreas que queremos. 
+cuando usas n veces la area que quieres se veran reflejadas esas n veces 
+
+
+*/

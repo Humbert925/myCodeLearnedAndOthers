@@ -1,0 +1,22 @@
+.flex-container{
+    display: flex;
+    background-color: beige;
+    height: 800px;
+    align-items: center;
+}
+.flex-container div{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    color: wheat;
+    margin: 5px;
+}
+
+/* los siguientes atributos 
+center: centra el contenido
+flex-start:alinea al inicio
+flex-end: alinea al final del doc
+stretch: estira los objetos para ocupar todo el espacio que puedan
+baseline: alinea conforme al contenido de la caja sin importar su tamaño por ejemplo tamaños de letras
+
+*/

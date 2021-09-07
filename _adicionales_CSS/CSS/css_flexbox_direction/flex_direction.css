@@ -1,0 +1,14 @@
+.flex-container{
+    display: flex;
+    background-color: cornsilk;
+    padding: 5px;
+    flex-direction: row;
+}
+.flex-container div{
+    background-color: blueviolet;
+    margin: 5px;
+    color: cyan;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+}

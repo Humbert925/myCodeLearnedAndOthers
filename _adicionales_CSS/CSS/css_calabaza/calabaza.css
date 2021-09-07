@@ -1,0 +1,44 @@
+@import 'compass';
+/*
+$p-height:200px;
+$p-width:240px;*/
+
+body {
+    background: #111111;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+  /*  height: $p-height * 1.2;*/
+    width:100%;
+    margin: auto;
+}
+::before,::after{
+    content: after"";
+    position: absolute;
+    height: 0;
+    width: 0;
+}
+/*$pumpkin-thickness: 8px;
+
+.pumpkkin{
+    position: relative;
+    left: calc(50% - (#{$p-width}/2));
+    heigth: $p-height;
+    width: $p-width;
+    background: #E37100;
+    @include border-radius (45% 45% 40% 40%/43% 43% 50% 50%);
+    @include box-shadow(inset 0 -20px 20px 0px rgba(0,0,0,0.4));
+}*/
+
+*{
+    position: absolute;
+}
+
+.front{
+    height: 94%;
+    width: 50%;
+
+}

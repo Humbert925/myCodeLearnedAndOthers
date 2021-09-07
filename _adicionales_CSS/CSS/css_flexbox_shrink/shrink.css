@@ -1,0 +1,13 @@
+.flex-container{
+    display: flex;
+    background-color: aliceblue;
+}
+.flex-container div{
+    background-color: blue;
+    margin: 5px;
+    width: 150px;
+    color: white;
+}
+/*esta propiedad hace que se "achiquen más rápido los elementos"
+entre más alto el número, se estrechará tambien más rápido. 
+Si usas cero para esta propiedad, no se verá afectado el elmento.*/

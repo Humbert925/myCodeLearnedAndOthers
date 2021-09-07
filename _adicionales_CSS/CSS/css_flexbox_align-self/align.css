@@ -1,0 +1,25 @@
+.flex-container{
+    display: flex;
+    background-color: goldenrod;
+    height: 150px;
+    align-items: center;
+}
+.flex-container div{
+    background-color: green;
+    margin: 5px;
+    width: 100px;
+    font-size: 25px;
+    text-align: center;
+    text-justify: distribute-all-lines;
+
+}
+/*
+Esta propiedad si se puede usar en la hoja de CSS
+align-items: alinea el contenido de los elementos
+con relación al "contenedor" principal. 
+
+en HTML use para el primer elmento stretch para que 
+ocuara más espacio y en los otros usé center se distingue 
+el cambio de cada uno 
+
+*/

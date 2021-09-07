@@ -1,0 +1,18 @@
+.grid-container{
+    background-color: darkgoldenrod;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+/*el último comando, grid-template-columns hace la magia de no usar
+media qwerty. En cambio, usa auto-fit y 1fr*/
+.grid-container > div{
+    background-color: darkgreen;
+    border: 2px solid white;
+    color: wheat;
+    display: flex;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}

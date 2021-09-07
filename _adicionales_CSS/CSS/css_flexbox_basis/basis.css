@@ -1,0 +1,15 @@
+.flex-container{
+    display: flex;
+    background-color:wheat;
+}
+.flex-container div{
+    background-color:chocolate;
+    color: wheat;
+    margin: 5px;
+    height: 50px;
+}
+/*BASIS
+Es una medida mínima que se usará cuando sea posible.
+si no puede ocuparla, será diferente a los demás elementos
+
+*/

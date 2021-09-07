@@ -1,0 +1,33 @@
+
+
+.grid-container{
+    font-size: 40px;
+    background-color: #f5deb3;
+    display: grid;
+    grid-template-columns: 150px auto 150px ;
+    grid-template-rows: repeat (3,100px);
+    gap: 10px;
+}
+
+.grid-container > *{
+    background-color: brown;
+    border: 1px solid black;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header, footer{
+    grid-column: 1/ 4;
+}
+/*Para hacerlo responsive se hace lo siguiente*/
+@media all and (max-width: 600px) {
+    aside, article{
+        grid-column: 1/span 3;
+    }
+    .grid-container{
+        grid-template-rows: repeat (5,100px);
+        
+    }
+}

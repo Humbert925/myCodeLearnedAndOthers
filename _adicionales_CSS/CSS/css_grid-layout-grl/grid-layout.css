@@ -1,0 +1,29 @@
+.grid-container{
+    display: grid;
+    background-color: wheat;
+    gap: 5px;
+    border: 5px solid blue;
+   grid-template-areas:
+   "header header header header header"
+   "menu main main aside aside"
+   "menu  footer footer footer footer";
+}
+.grid-container > *{
+    /*div se retira y se pone >* 
+    con eso se colocan nuevmaente los estilos*/
+    background-color: cadetblue;
+    color: whitesmoke;
+    text-align: center;
+    border: 1px solid black;padding: 10px;
+}
+
+
+/*
+grid-column: 1(donde inicia)/5 (donde termina)
+grid-row: 
+grid-area: 1(inicio vertical)/2(inicio hor)/4(fin vert)/5 (fin hor)
+
+grid-template-columns: auto auto auto auto; cuando usas div aca
+y sin coments en el html
+
+*/

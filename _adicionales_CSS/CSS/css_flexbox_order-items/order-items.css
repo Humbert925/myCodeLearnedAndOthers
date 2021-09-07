@@ -1,0 +1,12 @@
+.flex{
+    display: flex;
+    background-color: aquamarine;
+}
+.flex div{
+    margin: 5px;
+    padding: 5px;
+    color: whitesmoke;
+}
+/*Se da orden según se establesca con el atributo order
+en el documento HTML, por defecto tienen el orden 0.
+Para pasar un elemento al inicio se puede usar el comando "-1"*/

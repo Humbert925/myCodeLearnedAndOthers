@@ -1,0 +1,21 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: aqua;
+    height: 800px;
+    display: grid;
+    place-items: center;
+}
+.box{
+    color: black;
+    font-size: 50px;
+}
+/*
+
+La linea de código es: 
+place-items center
+
+*/

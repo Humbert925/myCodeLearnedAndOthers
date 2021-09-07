@@ -1,0 +1,28 @@
+div{
+    background-color: rgba(255, 127, 80, 0.4);
+    /*para cambiar el sistema que asigna color (RGB, HLA,etc.)
+    basta hacer click en la barra superior donde se encuenta el color 
+    y cambiará la sintaxis del tono elegido*/
+
+    background-image: url(images/216409080_2934542920196320_5753676104124739248_n.jpg);
+    /*para agregar una imagen como fondo, se usa background-image
+    usas la url para seleccionar la imagen*/
+    background-repeat: no-repeat;
+    /*si usas repeat se repide en todo el fondo
+    si usas no repeat, no se repite, si usas repeat-x se rpite horiz
+    si usas repeat-y se repite verticalmente*/
+    background-position: right top;
+    /*cuando quieres posicionar una imagen se usa esta propiedad, 
+    "position" despues seleccionas el sitio donde quieres que esté*/
+    background-attachment: fixed;
+    /*al usar la propiedad attachment, se puede dejar fijo un contenido
+    y si  usas scroll, baja o sube con la barra de scroll*/
+
+    background:
+    rgba(255, 127, 80, 40%) 
+    url(images/216409080_2934542920196320_5753676104124739248_n.jpg) 
+    no-repeat right top scroll;
+    /*finalmente, se puede poner todo en una linea 
+    como en el ejemplo anterior, como ventaja solo se nota que 
+    no escribes muchas veces la palabra background*/
+}

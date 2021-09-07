@@ -1,0 +1,13 @@
+.flex-container{
+    display: flex;
+    background-color: antiquewhite;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.flex-container div{
+    width: 150px;
+    height: 150px;
+    background-color: crimson;
+    margin: 5px;
+    text-align: center;
+}

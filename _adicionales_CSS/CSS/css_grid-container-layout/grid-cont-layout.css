@@ -1,0 +1,22 @@
+.grid-container{
+    display: grid;
+    background-color: cadetblue;
+    grid-template-columns: auto auto auto;
+}
+.grid-container div{
+    background-color: coral;
+    border: 1px solid black;
+    text-align: center;
+}
+
+/* :v Repaso de propiedades
+
+Propiedades del grid-container
+
+display:grid
+grid-template-columns [auto]
+grid-template-row[auto]
+justify-content [center, space-arround, space-evenly]
+align-content [center]
+
+*/

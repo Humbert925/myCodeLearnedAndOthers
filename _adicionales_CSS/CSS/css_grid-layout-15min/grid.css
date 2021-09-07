@@ -1,0 +1,54 @@
+.grid-container{
+    display: grid;
+    background-color: cornsilk;
+    height: 500px;
+    grid-template-areas:'header header header'
+    'menu main aside'
+    'menu footer footer' ;
+}
+
+.grid-container div{
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    border: 1px solid black;
+    align-content: center;
+    justify-content: center;
+}
+
+.item1{
+    grid-area: header;
+}
+
+.item2{
+    grid-area: menu;
+}
+
+.item3{
+    grid-area: main;
+}
+
+.item4{
+    grid-area: aside;
+}
+
+.item5{
+    grid-area: footer;
+}
+
+/*grid-template (column/row)
+permite dividir los items del grid container y ajusta
+el tamaño segun lo que se marque, auto asigna 
+un numero por default, sin embargo, pueden poner un número
+y el tamaño deseado en diferentes medidas
+
+span solo señala cuanto ocupara un elemento
+grid-column indica donde inicia y donde termina un elemento en columans
+    en row será lo mismo
+    en area señalará: la priodidad con relación al contenido grid-area: 1/2/5/5;
+En crid container 
+grid-template-columns: auto auto auto ;
+    grid-template-rows: 50px auto 120px; 
+
+    Fuente: https://www.youtube.com/watch?v=edEG0CoM5gw&list=PLnunbwZjHqMMafIhNadDNesYIcJvdPHLK&index=33
+*/

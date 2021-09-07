@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Consola de Javascript</h1>
+    <div>
+        <p>
+            La consola de javascript sirve para detectar errores. <br>
+            Existen al menos 3 situaciones muy comunes donde es necesario detectar los errores. <br>
+            
+            1. hay errores que se muestran pero no se solucionan tan facil como a veces lo señala la documentación. <br>
+            en ese caso puedes ingresar a la consola, detectar el error y buscar las posibles soluciones desde dentro de la consola. <br>
+            <br>
+            <br>
+            2. Se detectó el error pero la consola está muy cargada y hay cosas que no deseamos que vea el usuario. <br>
+            Otra solucion es limpiar la consola y dejarla preparada para que se pueda usar  nuevamente. <br>
+            <br>
+            3. Excelente, pero hay una variable que está cambiando constantemente, por botones y funciones. Me es difícil identificar el valor real. <br>
+            Sólo hay que ingresar a la consola y pedir que se muestre el valor de esa variable por consola y mostrará el valor de ese momento para esa variable<br>
+            <br>
+            <br>
+            Dentro de los navegadores puedes abrir la consola con click derecho y haciendo click en inspección o apretando F12.
+        </p>
+        <p><h3>Funciones de registro</h3>
+            <b>.assert</b> Aparece un mensaje de error en la consola si la affirmación es falsa. Si la afirmación es verdadera, no aparecerá nada. <br>
+            <b>.clear</b> Limpia la consola.<br>
+            <b>.error</b> Muestra un mensaje de error en la consola web.<br>
+            <b>.info</b> Emite un mensaje informativo a la consola web. En firefox y chrome, se muestra un pequño icono "i" junto a estos elementos en el registro de la consola web<br>
+            <b>.log</b> Muestra un mensaje en la consola web (o del interprete de javascript).<br>
+            <b>.table</b> Esta funcion toma un argumento obligatorio: data, que debe ser un array o un objeto, y un parámetro adicional: columns y nos muestra una tabla en consola. <br>
+            <b>.warn</b> Imprime un mensaje de advertencia en la consola web.<br>
+            <b>.dir</b> Despliega una lista interactiva de las propiedades del objeto javascript especificado<br>
+            <br>
+        </p>
+    </p>
+    <p><h3>Funciones de conteo</h3>
+        <b>.count</b> Registra el numero de veces que se llama count(). Esta funcion tomo como argumento optional una etiqueta. <br> 
+        <b>.countReset</b> Resetea el contador 'console.count()'<br>
+        <br>
+    </p></p>
+    <p><h3>Funciones de agrupación</h3>
+        <b>.group</b> sirven para crear un grupo, esta funciona como "etiqueta de apertura" y console.groupEnd como la de cierre<br>
+        <b>.grupEnd</b> <br>
+        <b>groupCollapsed</b> <br>
+        <br>
+    </p></p>
+    <p><h3>Funciones de temporización</h3>
+        <b>.time</b> <br>
+        <b>.timeEnd</b> <br>
+        <b>.timeLog</b> <br>
+        <br>
+    </p>
+    </div>
+    <script src="consola-js.js"></script>
+</body>
+</html>

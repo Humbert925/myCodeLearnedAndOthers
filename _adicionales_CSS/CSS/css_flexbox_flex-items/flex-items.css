@@ -1,0 +1,34 @@
+.flex-container{
+    display: flex;
+    background-color: wheat;
+    align-items: stretch;
+    height: 800px;
+}
+.flex-container div{
+    background-color: coral;
+    width: 250px;
+    margin: 5px;
+    width: 50px;
+    text-align: center;
+}
+#uno{
+    order: 2
+}
+#dos{
+    order: 1;
+}
+#tres{
+    order: 3;
+}
+#cuatro{
+    order: 0;
+}
+
+/* REPASO DE FLEX ITEMS
+order ordena los elementos
+flex-grow: da prioridad al elemento segun su vaor
+flex-shrink: retira prioridad al elemento 
+flex-basis: especifica el tamaño base de un elemento
+flex en la hoja de css se usan segun el orden anterior
+
+*/

@@ -1,0 +1,44 @@
+/*border-style
+Genera un borde al rededor de esa etiqueta los estilos se muestran abajo
+ */
+.dotted{border-style: dotted;}
+.dashed{border-style: dashed;}
+.solid{border-style: solid;}
+.double{border-style: double;}
+.groove{border-style: groove;}
+.ridge{border-style: ridge;}
+.inset{border-style: inset;}
+.outset{border-style: outset;}
+.none{border-style: none;}
+.hidden{border-style: hidden;}
+.unset{border-style: unset;}
+.inherit{border-style: inherit;}
+.initial{border-style: initial;}
+.mix{border-style: dotted double solid dashed;}
+
+.inheritw{border-style: solid; border-width: inherit;}
+.initialw{border-style: solid; border-width: initial;}
+.medium{border-style: solid; border-width: medium;}
+.thick{border-style: solid; border-width:thick ;}
+.thin{border-style: solid; border-width: thin;}
+.unsetw{border-style: solid; border-width: unset;}
+/*tambien se puede poner pixele como medida de los bordes. 
+una sola medida: se ve en todo el borde
+2 medidas:(x y) se ve x-arriba/abajo- y-izq/der- 
+3 medidas(x y z): se ve x-arriba- y-izq/der- z-abajo-
+4 medidas(x y z i): arriba der abajo izq
+
+Con esta propiedad, tambien pueden cambiar los colores de los bordes en 
+su respectiva posición con la propiedad border-color*/
+
+.ejemploColor{
+    border: 10px dashed blue;
+    border-radius: 10px;
+}
+.ejemploColores{
+    border: 10px solid  black ;
+    border-radius: 40px 0 40px 0;
+    /*esq sup izq 40px, esq sup der 0; esq inf der 40, esq inf izq 0*
+    inicia en esquina sup izq y termina en esquina inf izq, 
+    sigue las manecillas del reloj/
+}

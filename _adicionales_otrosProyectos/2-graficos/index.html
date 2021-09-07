@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graficos</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <form id="form-param">
+        <div class="container">
+            <div >
+                <input type="text" class="parametro" placeholder="parametro">
+                <input type="number" class="valor" placeholder="valor">
+            </div>
+            <div >
+                <input type="text" class="parametro" placeholder="parametro">
+                <input type="number" class="valor" placeholder="valor">
+            </div>
+        </div>
+        <div class="buttons">
+            <button type="button" class="addParam">Agregar parametro</button>
+            <button type="button" class="showResults">Mostrar resultados</button>
+        </div>
+    </form>
+    <div id="grafico"></div>
+    <script src="script.js"></script>
+</body>
+</html>
+<!--
+    Referencias:
+    https://github.com/soydalto/graficos/blob/master/index.html
+    https://www.youtube.com/watch?v=4biDfBztNGc
+-->

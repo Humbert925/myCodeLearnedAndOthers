@@ -1,0 +1,24 @@
+.flex-container{
+    display: flex;
+    background-color: wheat;
+    flex-direction: row;
+}
+.flex-container div{
+    background-color: crimson;
+    margin: 5px;
+    color: white;
+    flex-basis: 150px;
+    text-align: center;
+}
+@media (max-width:900px){
+    .flex-container{
+        flex-direction: column;
+    }
+    .flex-container div{
+        flex-basis: 100%;
+    }
+}
+
+/*Este documento fue para observar como se combinan 
+los media qwerties responsive
+se usa en este ejemplo width y flex-basis*/

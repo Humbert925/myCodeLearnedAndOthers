@@ -1,0 +1,36 @@
+h1{
+    color: blue;
+}
+/*esto es una clase, abarca 1 elemento o más*/
+.uno{
+    color: coral;
+}
+/*esto es un id, debe ser único !!!*/
+#uno{
+    color: cornflowerblue;
+}
+/*
+REPASO DE:
+-background-color
+-clase
+-id 
+-colores [hexadecimal, por nombre, rgb, rgba, etc.]
+-margin [-bottom, -top, -espacio del borde hacia el exterior-]
+-padding-relleno- [espacio entre contenido y bordes -interior- ]
+-border[borde]
+-width longitud
+-height altura
+-text-align [center, justify, right, left, ]
+-font-size [tamaño de la fuente]
+-font-family[selecciona el tipo de letra]
+-font-weight: bold;
+-font-style: italic;
+
+ELEMENTOS FLOTANTES
+margin
+border
+background-color
+float: left;
+wrap: 
+
+*/

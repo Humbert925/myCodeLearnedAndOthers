@@ -1,0 +1,18 @@
+.flex-container{
+    display: flex;
+    background-color: wheat;
+}
+.flex-container div{
+    background-color: red;
+    color: seashell;
+    margin: 10px;
+    height: 80px;
+    text-align: center;
+}
+/*
+flex grow
+Reparte el espacio del contenedor dentro de la pantalla
+y por defecto de forma equitativa se reparte ese espacio. 
+Segun el numero reparte el espacio asignado, reparte el
+espacio en el ancho de la pantalla.
+*/
